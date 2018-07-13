@@ -26,7 +26,7 @@ The Amazon and the Yangtze should flood. The Euphrates should dry up.
 
 class river
 
- attr_accessor (:length,:countries, :discharge)
+ attr_accessor (:name,:length,:countries, :discharge)
 
 def initialize(name, length, counries, discharge)
   @name = name
