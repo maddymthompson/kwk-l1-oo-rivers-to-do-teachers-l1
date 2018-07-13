@@ -33,7 +33,7 @@ end
 end
 
 
-river_one = River.new ("The Nile", "3,000", "japan", 0.30)
+river_one = River.new("The Nile", "3,000", "japan", 30)
 # river_mississippi = river.new
 # river_amazon = river.new
 # river_seine = river.new
