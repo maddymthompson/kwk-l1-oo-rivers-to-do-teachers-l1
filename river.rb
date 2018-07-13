@@ -19,7 +19,7 @@
 
 
 
-class river
+class River
 
  attr_accessor :name,:length,:countries,:discharge
 
@@ -33,7 +33,7 @@ end
 end
 
 
-river_nile = river.new ("The Nile", "3,000", "japan", "30%")
+river_nile = River.new ("The Nile", "3,000", "japan", "30%")
 # river_mississippi = river.new
 # river_amazon = river.new
 # river_seine = river.new
