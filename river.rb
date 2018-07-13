@@ -40,4 +40,4 @@ river_one = River.new ("The Nile", "3,000", "japan", 0.30)
 # river_yangtze = river.new
 # river_euphrates= river.new
 
-puts river_one
+# puts river_one
