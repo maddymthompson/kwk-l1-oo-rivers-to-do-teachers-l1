@@ -26,7 +26,7 @@
 
 class river
 
- attr_accessor :name,:length,:countries, :discharge
+ attr_accessor :name:length:countries:discharge
 
 def initialize(name, length, counries, discharge)
   @name = name
