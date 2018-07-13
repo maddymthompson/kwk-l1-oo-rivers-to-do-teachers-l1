@@ -26,7 +26,7 @@
 
 class river
 
- attr_accessor (:name,:length,:countries, :discharge)
+ attr_accessor :name,:length,:countries, :discharge
 
 def initialize(name, length, counries, discharge)
   @name = name
@@ -44,3 +44,5 @@ river_nile = river.new ("The Nile", "3,000", "japan", "30%")
 # river_seine = river.new
 # river_yangtze = river.new
 # river_euphrates= river.new
+
+puts river_nile 
